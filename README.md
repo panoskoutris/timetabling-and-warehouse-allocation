@@ -2,7 +2,7 @@
 
 This repository contains two real-world optimization problems modeled using **Integer Linear Programming (ILP)** and solved using **Gurobi** in Python. The project demonstrates the use of mathematical modeling to address practical challenges in scheduling and logistics.
 
-Developed as part of the course **Operational Research** at the **Aristotle University of Thessaloniki (AUTH)**, School of Electrical & Computer Engineering.
+Developed as part of the course **Operations Research** at the **Aristotle University of Thessaloniki (AUTH)**, School of Electrical & Computer Engineering.
 
 ---
 
