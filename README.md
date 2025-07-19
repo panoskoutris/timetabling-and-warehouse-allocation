@@ -113,4 +113,4 @@ timetabling-and-warehouse-allocation/
 
 ## 📝 License
 
-This project is provided for **academic and educational purposes** only.
+Licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html).
