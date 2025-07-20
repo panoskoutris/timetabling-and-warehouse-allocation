@@ -106,7 +106,6 @@ timetabling-and-warehouse-allocation/
 ## ✍️ Author
 
 **Panagiotis Koutris**  
-📧 pkoutris@ece.auth.gr  
 🎓 Undergraduate Student, AUTh – School of Electrical & Computer Engineering
 
 ---
