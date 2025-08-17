@@ -1,4 +1,4 @@
-# 📦 Timetabling and Warehouse Allocation
+# Timetabling and Warehouse Allocation
 
 This repository contains two real-world optimization problems modeled using **Integer Linear Programming (ILP)** and solved using **Gurobi** in Python. The project demonstrates the use of mathematical modeling to address practical challenges in scheduling and logistics.
 
@@ -6,9 +6,9 @@ Developed as part of the course **Operations Research** at the **Aristotle Unive
 
 ---
 
-## 🧠 Problem 1: School Timetabling
+##  Problem 1: School Timetabling
 
-### 🎯 Objective
+###  Objective
 
 Design a weekly schedule for two different school classes, assigning subjects and teachers to specific time slots while satisfying:
 
@@ -17,13 +17,13 @@ Design a weekly schedule for two different school classes, assigning subjects an
 - No double-booking of teachers or classes
 - Subject-teacher compatibility
 
-### ⚙️ Approach
+###  Approach
 
 - Modeled as a **Mixed Integer Linear Program (MILP)**
 - Binary decision variables represent whether a subject is taught in a specific time slot by a specific teacher in a specific class
 - Solved using the `gurobipy` API
 
-### ✅ Results
+### Results
 
 - Generated valid, conflict-free weekly timetables for both classes
 - All constraints were successfully satisfied
@@ -43,29 +43,29 @@ Class 2 – Tuesday
 
 ---
 
-## 🧠 Problem 2: Warehouse Allocation (Capacitated Facility Location)
+##  Problem 2: Warehouse Allocation (Capacitated Facility Location)
 
-### 🎯 Objective
+###  Objective
 
 Select a subset of 12 candidate warehouse locations to open and assign 12 service points to them, minimizing the total cost (fixed + transportation) while satisfying:
 
 - Each service point is served by exactly one open warehouse
 - Opened warehouses must respect capacity constraints
 
-### 📊 Given
+###  Given
 
 - A 12×12 transportation cost matrix
 - Fixed costs to open each warehouse
 - Capacity and demand values
 
-### ⚙️ Approach
+###  Approach
 
 - ILP model with binary variables:
   - Whether each warehouse is opened
   - Whether each service point is assigned to a warehouse
 - Constraints ensure valid assignments and capacity limits
 
-### ✅ Results
+###  Results
 
 - Optimal selection of warehouses to open
 - Each service point was assigned to exactly one open warehouse
@@ -83,7 +83,7 @@ Assignments:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Language**: Python 3
 - **Solver**: Gurobi Optimizer
@@ -93,7 +93,7 @@ Assignments:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 timetabling-and-warehouse-allocation/
@@ -103,13 +103,13 @@ timetabling-and-warehouse-allocation/
 
 ---
 
-## ✍️ Author
+##  Author
 
 **Panagiotis Koutris**  
 🎓 Undergraduate Student, AUTh – School of Electrical & Computer Engineering
 
 ---
 
-## 📝 License
+##  License
 
 Licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html).
